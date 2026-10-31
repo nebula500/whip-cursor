@@ -1,0 +1,76 @@
+WHIP CURSOR 1.4.3 — UNIVERSAL MAC APP
+Apple silicon and Intel builds · macOS 13 or newer
+
+TRANSFER / INSTALL
+1. Copy “Whip Cursor.zip” to the other Mac using AirDrop, USB, or file sharing.
+2. Double-click the ZIP to extract the “Whip Cursor” folder.
+3. Quit any earlier Whip Cursor using its menu bar menu.
+4. Drag “Whip Cursor.app” to Applications and open it.
+
+All sounds are bundled. No Xcode, Swift, Python, or internet connection is
+needed to run the app. Source is included for editing or rebuilding only.
+
+FIRST LAUNCH
+This app is locally signed but has not been notarized by Apple.
+If macOS blocks it and you trust this copy, try opening it first, then use
+System Settings > Privacy & Security > Open Anyway. Review the app name
+and confirm Open. Managed Macs may require administrator approval.
+Apple’s instructions: https://support.apple.com/102445
+
+WINDOW
+The settings window opens at its full content height. On smaller screens,
+it uses the available screen height and keeps scrolling as a fallback.
+
+QUICK CONTROLS
+• Left-click the whip icon in the top menu bar to switch ON / OFF.
+• Right-click or Control-click the same icon for Settings and Quit.
+• Option-Shift-W pauses the whip globally and restores the normal pointer.
+• The settings window can be closed while the menu bar app keeps running.
+• The effect starts OFF every launch; saved appearance settings are retained.
+
+CUSTOMIZE
+Choose the whip color, length, thickness (50%–250%), and one of three handles:
+Straight, Tapered, or Flared. All retain leather braiding and a wrapped grip.
+Choose Classic bullwhip, Sharp snap, Dry crack, or Swoosh + crack audio.
+Preferences are saved separately on each Mac.
+
+HOLD TO LOAD
+Turn on “Hold to load the whip” in Settings. Hold either mouse button to
+coil the whip and fill the charge ring, then release to crack it. Longer
+holds create a stronger visual snap. With this mode off, each press cracks
+immediately. Double-click either button for two cracks in either mode.
+Normal clicks, context menus, and dragging still reach the app underneath.
+
+POINTER REPLACEMENT
+“Replace system pointer” hides the normal arrow while the desktop whip is
+active. The handle’s small white dot marks the actual click position.
+The normal arrow returns over Settings and the menu bar controls, on pause,
+when switching user sessions / sleeping, and on Quit. Hiding is applied to
+every active display. If Option-Shift-W is already used by another app,
+Settings explains that pause is still available from the menu bar.
+The preview uses its own hidden cursor and interactive whip.
+
+Background hiding uses a private macOS WindowServer connection property,
+resolved dynamically. If that interface is absent or rejects the request,
+the app keeps the normal pointer visible and shows a fallback message.
+Future macOS versions, protected screens, other cursor tools, or certain
+fullscreen apps may override hiding. Use OFF / ON to reset if needed, or
+turn off “Replace system pointer” to keep the normal pointer visible.
+
+CONTENTS
+Whip Cursor.app       Ready-to-run universal app and all sound resources
+Read Me First.txt     These instructions
+Source/               Source, audio credits, build and packaging scripts
+
+VALIDATION
+Native Apple silicon checks cover simulation stability, both mouse buttons,
+quick double-clicks, hold/release/cancellation, three handle profiles, and
+bundled audio. Intel is cross-compiled and included; physical Intel hardware
+and older supported macOS releases were not available for runtime testing.
+The minimum deployment target is macOS 13. External display hardware was
+not available for manual testing.
+
+OTHER PLATFORMS
+Windows and Linux use the same physics and settings. See the project README.
+
+Will this make your AI better? No. But you might feel like it does.

@@ -1,0 +1,22 @@
+RECORDED WHIP SOUNDS — Whip Cursor 1.4.3
+
+Recordings by Joseph SARDIN, BigSoundBank / LaSonothèque.
+Released under CC0 1.0 (public-domain dedication):
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Classic bullwhip: Whip crack #1, sound 2949
+https://bigsoundbank.com/whip-crack-1-s2949.html
+
+Sharp snap: Whip crack #2, sound 2950
+https://bigsoundbank.com/fouet-2-s2950.html
+
+Dry crack: Whip crack #3, sound 2951
+https://bigsoundbank.com/fouet-3-s2951.html
+
+Swoosh + crack: Complete whip #1, sound 2961
+https://bigsoundbank.com/fouet-complet-1-s2961.html
+
+Adaptations: decoded to 48 kHz mono 16-bit WAV; leading/trailing silence
+trimmed, peak levels balanced to -1.7 dBFS, 2 ms entry and 25 ms exit fades.
+The Swoosh + crack source is a designed effect; the other three are natural
+outdoor whip recordings. No network connection is used during playback.

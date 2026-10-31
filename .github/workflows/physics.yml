@@ -1,0 +1,25 @@
+name: physics
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  match-macos:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Compare ports with the macOS golden dump
+        run: python desktop/test_physics.py
+      - name: Check the web simulation on its own
+        run: node web/check-physics.js

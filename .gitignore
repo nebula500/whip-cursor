@@ -1,0 +1,6 @@
+.DS_Store
+Source/.build/
+Source/Whip Cursor.app/
+__pycache__/
+*.pyc
+.venv/
