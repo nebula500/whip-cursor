@@ -10,6 +10,10 @@ Your pointer grows a leather bullwhip. Click, and it cracks. Hold, and it loads.
 
 Want your AI to actually work better? [Talk to Nebula 500](https://www.nebula500.com/). Or keep clicking harder and see if that helps.
 
+## Disclaimer
+
+Whip Cursor is a joke and a marketing piece for [Nebula 500](https://www.nebula500.com/). It was vibe coded, built quickly with AI coding tools, and hasn't had the review or testing you'd expect from production software. It makes no network calls and doesn't touch your AI tools; it just draws a whip and plays a sound. Use it for fun, at your own risk (see [LICENSE](LICENSE)).
+
 ## What you get
 
 The same whip on every platform:
